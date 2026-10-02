@@ -140,7 +140,7 @@ namespace AdofaiPro.Patching
             if (key == "editor." + CustomEvent.DictKey || key == "editor." + CustomEvent.FileName)
             {
                 exists = true;
-                __result = "一个超级牛逼事件。";
+                __result = "Tile Tint";
             }
         }
     }

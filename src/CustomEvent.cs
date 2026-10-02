@@ -24,7 +24,7 @@ namespace AdofaiPro
         internal const int TypeId = 900;
 
         /// <summary>写进 .adofai 的可读事件名。</summary>
-        internal const string FileName = "ASuperNiubEvent";
+        internal const string FileName = "SetTileTint";
 
         /// <summary><c>GCS.levelEventsInfo</c> / <c>GCS.levelEventTypeString</c> 里使用的键。</summary>
         internal const string DictKey = "900";
@@ -195,7 +195,7 @@ namespace AdofaiPro
             {
                 { "name", "floor" },
                 { "type", "Int" },
-                { "customLabel", "砖块" }
+                { "customLabel", "Tile" }
             });
 
             Add(info, 1, new Dictionary<string, object>
@@ -204,7 +204,7 @@ namespace AdofaiPro
                 { "type", "Color" },
                 { "default", "ffffff" },
                 { "usesAlpha", false },
-                { "customLabel", "颜色" },
+                { "customLabel", "Tint color" },
                 { "affectsFloors", true }
             });
 
@@ -215,7 +215,7 @@ namespace AdofaiPro
                 { "default", 100f },
                 { "min", 0f },
                 { "max", 100f },
-                { "customLabel", "不透明度" },
+                { "customLabel", "Opacity (%)" },
                 { "affectsFloors", true }
             });
 
@@ -226,7 +226,7 @@ namespace AdofaiPro
                 { "default", 0 },
                 { "min", 0 },
                 { "max", 99 },
-                { "customLabel", "瓷砖" },
+                { "customLabel", "Affect next tiles" },
                 { "affectsFloors", true }
             });
 
