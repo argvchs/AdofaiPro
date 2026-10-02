@@ -1,0 +1,12 @@
+{
+  "Id": "AdofaiPro",
+  "DisplayName": "AdofaiPro - Custom Event",
+  "Author": "argvchs",
+  "Version": "1.0.0",
+  "ManagerVersion": "0.32.5.0",
+  "Requirements": [],
+  "AssemblyName": "AdofaiPro.dll",
+  "EntryMethod": "AdofaiPro.Main.Load",
+  "HomePage": "",
+  "Repository": ""
+}
